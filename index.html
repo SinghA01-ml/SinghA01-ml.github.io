@@ -90,6 +90,7 @@
 
     ul.plain { margin: 0; padding-left: 1.3rem; }
     ul.plain li { margin-bottom: 6px; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
 
     .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); }
     .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px; }
@@ -155,7 +156,14 @@
           <p>I am a Postdoctoral Research Associate in the Department of Mathematics at the University of Manchester, based on the UK EPSRC <a href="https://www.probai.uk/">Prob_AI Hub</a>, working with <a href="https://personalpages.manchester.ac.uk/staff/david.silvester/">Prof. David Silvester</a> and <a href="https://personalpages.manchester.ac.uk/staff/Catherine.Powell/">Prof. Catherine Powell</a>.</p>
           <p>Before moving to Manchester, I spent an amazing year as a Project Associate at the Indian Institute of Science, Bangalore, where I worked with <a href="https://cds.iisc.ac.in/faculty/ratikanta/">Dr. Ratikanta Behera</a> on designing physics-informed neural networks (PINNs) and their applications.</p>
           <p>I completed my PhD in Applied Mathematics at the Indian Institute of Technology (BHU), Varanasi, supervised by <a href="https://iitbhu.ac.in/dept/mat/people/skumarmat">Dr. Sunil Kumar</a>. My PhD thesis is titled &ldquo;Analysis of high-order methods for time-fractional partial differential equations with smooth and non-smooth solutions.&rdquo; Prior to my PhD, I received my Bachelor and Master in Mathematics from the University of Lucknow.</p>
-          <p>A list of my papers is under <a href="#publications">Publications</a>, and my code is under <a href="#repositories">Repositories</a>.</p>
+          <hr>
+
+          <p>My research lies at the intersection of numerical analysis and scientific machine learning, with a focus on developing efficient and accurate computational methods for differential equations. I am particularly interested in:</p>
+          <ul class="plain">
+            <li>Applications of flow-based deep generative models, as an adaptive sampling tool for problems such as bifurcation detection in parametrised fluid flow, and for improving PINN training and accuracy</li>
+            <li>Physics-informed neural networks, including wavelet-based approaches for problems with steep gradients, rapid oscillations, and other singular behaviour that standard PINNs struggle with</li>
+            <li>High-order numerical schemes for fractional partial differential equations, with rigorous stability and convergence analysis, especially for solutions with weak singularities</li>
+          </ul>
 
           <h3>Research areas</h3>
           <ul class="tags">
